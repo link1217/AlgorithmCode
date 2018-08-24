@@ -3,16 +3,16 @@ package sort;
 import utils.ArrayUtils;
 
 /**
- * 冒泡排序 Bubble Sort
+ * 快速排序 Quick Sort
  * 
- * 时间复杂度：O(n²)
+ * 时间复杂度 O(nlogn)-O(n²)
  * 
- * 稳定
+ * 不稳定(理论上可以实现稳定)
  * 
  * @author Watcher
  *
  */
-public class BubbleSort {
+public class QuickSort {
 
 	public static void main(String[] args) {
 		int time = 10000, maxSize = 100, maxValue = 100;
@@ -20,8 +20,7 @@ public class BubbleSort {
 		while (time-- > 0) {
 			int[] arr1 = ArrayUtils.getRandomArray(maxSize, maxValue);
 			int[] arr2 = ArrayUtils.copyArray(arr1);
-			// bubbleSort(arr1);
-			bubbleSort2(arr1);
+			quickSort(arr1);
 			ArrayUtils.comparator(arr2);
 			if (!ArrayUtils.isEqual(arr1, arr2)) {
 				System.out.println("my sort: ");
@@ -41,41 +40,41 @@ public class BubbleSort {
 		System.out.println("排序前： ");
 		ArrayUtils.printArray(arr);
 		System.out.println("排序后： ");
-		bubbleSort(arr);
+		quickSort(arr);
 		ArrayUtils.printArray(arr);
 	}
 
 	/**
-	 * 常规的冒泡排序
+	 * 快速排序
 	 * 
 	 * @param arr
 	 */
-	public static void bubbleSort(int[] arr) {
+	public static void quickSort(int[] arr) {
 		if (arr == null || arr.length < 2)
 			return;
-		for (int i = 0; i < arr.length; i++)
-			for (int j = 1; j < arr.length - i; j++)
-				if (arr[j] < arr[j - 1])
-					ArrayUtils.swap(arr, j, j - 1);
-
+		quickSort(arr, 0, arr.length - 1);
 	}
 
-	/**
-	 * 添加状态标志，优化的冒泡排序
-	 * 
-	 * @param arr
-	 */
-	public static void bubbleSort2(int[] arr) {
-		if (arr == null || arr.length < 2)
+	private static void quickSort(int[] arr, int lo, int hi) {
+		if (lo >= hi)
 			return;
-		boolean flag = true;
-		for (int i = 0; i < arr.length && flag; i++) {
-			flag = false;
-			for (int j = 1; j < arr.length - i; j++)
-				if (arr[j] < arr[j - 1]) {
-					ArrayUtils.swap(arr, j, j - 1);
-					flag = true;
-				}
+		ArrayUtils.swap(arr, hi, lo + (int) (Math.random() * (hi - lo + 1)));
+		int[] p = partition(arr, lo, hi);
+		quickSort(arr, lo, p[0] - 1);
+		quickSort(arr, p[1] + 1, hi);
+	}
+
+	private static int[] partition(int[] arr, int lo, int hi) {
+		int less = lo - 1, more = hi;
+		while (lo < more) {
+			if (arr[lo] < arr[hi])
+				ArrayUtils.swap(arr, ++less, lo++);
+			else if (arr[lo] > arr[hi])
+				ArrayUtils.swap(arr, --more, lo);
+			else
+				lo++;
 		}
+		ArrayUtils.swap(arr, more, hi);
+		return new int[] { less + 1, more };
 	}
 }

@@ -3,16 +3,16 @@ package sort;
 import utils.ArrayUtils;
 
 /**
- * 冒泡排序 Bubble Sort
+ * 堆排序 Heap Sort
  * 
- * 时间复杂度：O(n²)
+ * 时间复杂度： O(nlogn)
  * 
- * 稳定
+ * 不稳定
  * 
  * @author Watcher
  *
  */
-public class BubbleSort {
+public class HeapSort {
 
 	public static void main(String[] args) {
 		int time = 10000, maxSize = 100, maxValue = 100;
@@ -20,8 +20,7 @@ public class BubbleSort {
 		while (time-- > 0) {
 			int[] arr1 = ArrayUtils.getRandomArray(maxSize, maxValue);
 			int[] arr2 = ArrayUtils.copyArray(arr1);
-			// bubbleSort(arr1);
-			bubbleSort2(arr1);
+			heapSort(arr1);
 			ArrayUtils.comparator(arr2);
 			if (!ArrayUtils.isEqual(arr1, arr2)) {
 				System.out.println("my sort: ");
@@ -41,41 +40,46 @@ public class BubbleSort {
 		System.out.println("排序前： ");
 		ArrayUtils.printArray(arr);
 		System.out.println("排序后： ");
-		bubbleSort(arr);
+		heapSort(arr);
 		ArrayUtils.printArray(arr);
 	}
 
 	/**
-	 * 常规的冒泡排序
+	 * 堆排序
 	 * 
 	 * @param arr
 	 */
-	public static void bubbleSort(int[] arr) {
+	public static void heapSort(int[] arr) {
 		if (arr == null || arr.length < 2)
 			return;
-		for (int i = 0; i < arr.length; i++)
-			for (int j = 1; j < arr.length - i; j++)
-				if (arr[j] < arr[j - 1])
-					ArrayUtils.swap(arr, j, j - 1);
-
-	}
-
-	/**
-	 * 添加状态标志，优化的冒泡排序
-	 * 
-	 * @param arr
-	 */
-	public static void bubbleSort2(int[] arr) {
-		if (arr == null || arr.length < 2)
-			return;
-		boolean flag = true;
-		for (int i = 0; i < arr.length && flag; i++) {
-			flag = false;
-			for (int j = 1; j < arr.length - i; j++)
-				if (arr[j] < arr[j - 1]) {
-					ArrayUtils.swap(arr, j, j - 1);
-					flag = true;
-				}
+		int size = arr.length;
+		for (int i = 0; i < size; i++) // 建立大根堆
+			insertHeap(arr, i);
+		ArrayUtils.swap(arr, 0, --size);
+		while (size > 1) {
+			heapfy(arr, size); // 堆化
+			ArrayUtils.swap(arr, 0, --size);
 		}
 	}
+
+	private static void heapfy(int[] arr, int size) {
+		int index = 0, left = (index << 1) + 1;
+		while (left < size) {
+			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;
+			largest = arr[largest] > arr[index] ? largest : index;
+			if (largest == index)
+				break;
+			ArrayUtils.swap(arr, largest, index);
+			index = largest;
+			left = (index << 1) + 1;
+		}
+	}
+
+	private static void insertHeap(int[] arr, int i) {
+		while (i > 0 && arr[i] > arr[i - 1 >> 1]) {
+			ArrayUtils.swap(arr, i, i - 1 >> 1);
+			i = i - 1 >> 1; // >>优先级小于-
+		}
+	}
+
 }
