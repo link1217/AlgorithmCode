@@ -58,7 +58,7 @@ public class HeapSort {
 		ArrayUtils.swap(arr, 0, --size);
 		while (size > 1) {
 			heapfy(arr, size); // 堆化
-			ArrayUtils.swap(arr, 0, --size);
+			swap(arr, 0, --size);
 		}
 	}
 
@@ -69,7 +69,7 @@ public class HeapSort {
 			largest = arr[largest] > arr[index] ? largest : index;
 			if (largest == index)
 				break;
-			ArrayUtils.swap(arr, largest, index);
+			swap(arr, largest, index);
 			index = largest;
 			left = (index << 1) + 1;
 		}
@@ -77,9 +77,16 @@ public class HeapSort {
 
 	private static void insertHeap(int[] arr, int i) {
 		while (i > 0 && arr[i] > arr[i - 1 >> 1]) {
-			ArrayUtils.swap(arr, i, i - 1 >> 1);
+			swap(arr, i, i - 1 >> 1);
 			i = i - 1 >> 1; // >>优先级小于-
 		}
 	}
 
+	private static void swap(int[] arr, int i, int j) {
+		if (i != j) {
+			arr[i] = arr[i] ^ arr[j];
+			arr[j] = arr[i] ^ arr[j];
+			arr[i] = arr[i] ^ arr[j];
+		}
+	}
 }

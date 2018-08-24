@@ -58,7 +58,7 @@ public class QuickSort {
 	private static void quickSort(int[] arr, int lo, int hi) {
 		if (lo >= hi)
 			return;
-		ArrayUtils.swap(arr, hi, lo + (int) (Math.random() * (hi - lo + 1)));
+		swap(arr, hi, lo + (int) (Math.random() * (hi - lo + 1)));
 		int[] p = partition(arr, lo, hi);
 		quickSort(arr, lo, p[0] - 1);
 		quickSort(arr, p[1] + 1, hi);
@@ -68,13 +68,21 @@ public class QuickSort {
 		int less = lo - 1, more = hi;
 		while (lo < more) {
 			if (arr[lo] < arr[hi])
-				ArrayUtils.swap(arr, ++less, lo++);
+				swap(arr, ++less, lo++);
 			else if (arr[lo] > arr[hi])
-				ArrayUtils.swap(arr, --more, lo);
+				swap(arr, --more, lo);
 			else
 				lo++;
 		}
-		ArrayUtils.swap(arr, more, hi);
+		swap(arr, more, hi);
 		return new int[] { less + 1, more };
+	}
+
+	private static void swap(int[] arr, int i, int j) {
+		if (i != j) {
+			arr[i] = arr[i] ^ arr[j];
+			arr[j] = arr[i] ^ arr[j];
+			arr[i] = arr[i] ^ arr[j];
+		}
 	}
 }

@@ -45,7 +45,7 @@ public class SelectionSort {
 	}
 
 	/**
-	 * 常规的选择排序
+	 * 选择排序
 	 * 
 	 * @param arr
 	 */
@@ -57,9 +57,15 @@ public class SelectionSort {
 			for (int j = i + 1; j < arr.length; j++)
 				if (arr[min] > arr[j])
 					min = j;
-			ArrayUtils.swap(arr, i, min);
+			swap(arr, i, min);
 		}
 
 	}
-
+	private static void swap(int[] arr, int i, int j) {
+		if (i != j) {
+			arr[i] = arr[i] ^ arr[j];
+			arr[j] = arr[i] ^ arr[j];
+			arr[i] = arr[i] ^ arr[j];
+		}
+	}
 }
