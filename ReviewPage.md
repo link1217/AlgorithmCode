@@ -10,11 +10,19 @@ New problems will be automatically updated once added.
 * [hahaaaaa](#haAhaA)
 * [哈哈aaaa](#哈哈)
 * [SortAlgoritaaa](#ortlgoritaaa)
+* [AAAA](#AAAA)
+* [Aaaaa](#Aaaaa)
+* [AaA](#AaA)
 <!-- GFM-TOC -->
 
 
 # haAhaA
 
+# AAAA
+
+# Aaaaa
+
+# AaA
 
 # ortlgorith
 
