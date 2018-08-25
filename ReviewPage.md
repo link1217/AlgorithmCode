@@ -9,7 +9,7 @@ New problems will be automatically updated once added.
 * [Sort Algorithm](#SortAlgorithm)
     * [Selection Sort](#2SelectionSort)
 * [haha](#haha)
-* [哈哈](哈哈)
+* [哈哈](#哈哈)
 <!-- GFM-TOC -->
 
 
