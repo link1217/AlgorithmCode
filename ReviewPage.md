@@ -8,15 +8,15 @@ New problems will be automatically updated once added.
 <!--GFM-TOC -->
 * [Sort Algorithm](#sort-algorithm)
 	* [1.Bubble Sort](#1-bubble-sort)
-	* [3.Selection Sort](#2-selection-sort)
-	* [4.Insertion Sort](#3-insertion-sort)
-	* [5.Shell Sort](#4-shell-sort)
-	* [6.Merge Sort](#5-merge-sort)
-	* [7.Quick Sort](#6-quick-sort)
-	* [8.Heap Sort](#7-heap-sort)
-	* [9.Bubble Sort](#8-bubble-sort)
+	* [2.Selection Sort](#2-selection-sort)
+	* [3.Insertion Sort](#3-insertion-sort)
+	* [4.Shell Sort](#4-shell-sort)
+	* [5.Merge Sort](#5-merge-sort)
+	* [6.Quick Sort](#6-quick-sort)
+	* [7.Heap Sort](#7-heap-sort)
+	* [8.Bubble Sort](#8-bubble-sort)
 * [Search Algorithm](#search-algorithm)
-	* [Union Find Set](#1-union-find-set)
+	* [1.Union Find Set](#1-union-find-set)
         
 <!--GFM-TOC -->
 
