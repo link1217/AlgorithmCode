@@ -5,37 +5,7 @@ New problems will be automatically updated once added.
 --------------------------------------------
 ### Content
 
-<!-- GFM-TOC -->
-* [SortAlgorith](#ortlgorith)
-* [hahaaaaa](#haAhaA)
-* [哈哈aaaa](#哈哈)
-* [SortAlgoritaaa](#ortlgoritaaa)
-* [AAAA](#AAAA)
-* [Aaaaa](#Aaaaa)
-* [AaA](#AaA)
-  * [aaaa](#aaaa)
-<!-- GFM-TOC -->
-
-
-# haAhaA
-
-# AAAA
-
-# Aaaaa
-
-# AaA
-
-### aaaa
-
-# ortlgorith
-
-# ortlgoritaaa
-
---------------
-
-# 哈哈
-
------------
+[TOC]
 
 
 # SortAlgorithm  
