@@ -4,14 +4,14 @@ This page summarize the solutions of all problems. For thoughts,ideas written in
 New problems will be automatically updated once added.
 --------------------------------------------
 ### Content
+
 <!-- GFM-TOC -->
-  * [Sort Algorithm](#Sort-Algorithm)
+* [Sort Algorithm](#Sort-Algorithm)
     * [Selection Sort](#2-Selection-Sort)
-
 <!-- GFM-TOC -->
 
 
-## Sort Algorithm
+# Sort Algorithm
 > 内含对数器测试校验，在当前类的main函数中对排序方法进行校验，对数器由工具类[ArrayUtils](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/utils/ArrayUtils.java)生成
 
 
