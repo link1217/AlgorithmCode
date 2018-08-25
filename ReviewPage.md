@@ -6,10 +6,8 @@ New problems will be automatically updated once added.
 ### Content
 
 <!-- TOC -->
-
-
-* [Sort Algorithm](#sort-algorithm)  
-        * [1.Bubble Sort](#1-bubble-sort)
+* [Sort Algorithm](#sort-algorithm)
+    * [1.Bubble Sort](#1-bubble-sort)
         
 <!-- /TOC -->
 
