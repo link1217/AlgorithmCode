@@ -6,19 +6,19 @@ New problems will be automatically updated once added.
 ### Content
 
 <!-- GFM-TOC -->
-* [SortAlgorith](#ortAlgorith)
+* [SortAlgorith](#ortlgorith)
 * [hahaaaaa](#haAhaA)
 * [哈哈aaaa](#哈哈)
-* [SortAlgoritaaa](#ortAlgoritaaa)
+* [SortAlgoritaaa](#ortlgoritaaa)
 <!-- GFM-TOC -->
 
 
 # haAhaA
 
 
-# ortAlgorith
+# ortlgorith
 
-# ortAlgoritaaa
+# ortlgoritaaa
 
 --------------
 
