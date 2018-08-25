@@ -17,12 +17,12 @@
 
 ## Content
 
-<!-- TOC -->
+<!--GFM-TOC -->
 
 - [Sort Algorithm](#sort-algorithm)
 - [Search Algorithm](#search-algorithm)
 
-<!-- /TOC -->
+<!--GFM-TOC -->
 
 --------------------
 
