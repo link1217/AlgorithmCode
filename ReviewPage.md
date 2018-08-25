@@ -5,7 +5,29 @@ New problems will be automatically updated once added.
 --------------------------------------------
 ### Content
 
-[TOC]
+<!-- TOC -->
+
+- [Review Page](#review-page)
+        - [Content](#content)
+    - [Sort Algorithm](#sort-algorithm)
+        - [**1. [Bubble Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/BubbleSort.java)**](#1-bubble-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortbubblesortjava)
+            - [Stable: YES](#stable-yes)
+        - [**2. [Selection Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/SelectionSort.java)**](#2-selection-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortselectionsortjava)
+            - [Stable: NO](#stable-no)
+        - [**3. [Insertion Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/InsertionSort.java)**](#3-insertion-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortinsertionsortjava)
+            - [Stable: YES](#stable-yes-1)
+        - [**4. [Shell Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/ShellSort.java)**](#4-shell-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortshellsortjava)
+            - [Stable: NO](#stable-no-1)
+        - [**5. [Merge Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/MergeSort.java)**](#5-merge-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortmergesortjava)
+            - [Stable: YES](#stable-yes-2)
+        - [**6. [Quick Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/QuickSort.java)**](#6-quick-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortquicksortjava)
+            - [Stable: NO](#stable-no-2)
+        - [**7. [Heap Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/HeapSort.java)**](#7-heap-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortheapsortjava)
+            - [Stable: NO](#stable-no-3)
+    - [Search Algorithm](#search-algorithm)
+        - [**1. [Union Find Set](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/UnionFind.java)**](#1-union-find-sethttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsearchunionfindjava)
+
+<!-- /TOC -->
 
 
 # SortAlgorithm  
