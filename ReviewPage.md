@@ -3,21 +3,31 @@
 This page summarize the solutions of all problems. For thoughts,ideas written in English, refer to deach individual solution. 
 New problems will be automatically updated once added.
 --------------------------------------------
-### Content
+## Content
 
 <!--GFM-TOC -->
 * [Sort Algorithm](#sort-algorithm)
-    * [1.Bubble Sort](#1-bubble-sort)
+	* [1.Bubble Sort](#1-bubble-sort)
+	* [3.Selection Sort](#2-selection-sort)
+	* [4.Insertion Sort](#3-insertion-sort)
+	* [5.Shell Sort](#4-shell-sort)
+	* [6.Merge Sort](#5-merge-sort)
+	* [7.Quick Sort](#6-quick-sort)
+	* [8.Heap Sort](#7-heap-sort)
+	* [9.Bubble Sort](#8-bubble-sort)
+* [Search Algorithm](#search-algorithm)
+	*[Union Find Set](#1-union-find-set)
         
 <!--GFM-TOC -->
 
+--------------------
 
-# Sort Algorithm  
+## Sort Algorithm  
 > 内含对数器测试校验，在当前类的main函数中对排序方法进行校验，对数器由工具类[ArrayUtils](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/utils/ArrayUtils.java)生成
 
 
 ### **1. [Bubble Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/BubbleSort.java)**
-#### Stable: YES
+* Stable: YES
 * Worst Time Complexity ： O(n²) 
 * Best Time Complexity(改进版(bubbleSort2)) : O(n)
 * Average Time Complexity(常规版) ： O(n²) 
@@ -27,7 +37,7 @@ New problems will be automatically updated once added.
 
 ---------------------
 ### **2. [Selection Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/SelectionSort.java)**
-#### Stable: NO
+* Stable: NO
 * Worst Time Complexity ： O(n²) 
 * Best Time Complexity : O(n²)
 * Average Time Complexity ： O(n²) 
@@ -35,7 +45,7 @@ New problems will be automatically updated once added.
 
 ----------------------------------
 ### **3. [Insertion Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/InsertionSort.java)**
-#### Stable: YES
+* Stable: YES
 * Worst Time Complexity ： O(n²) 
 * Best Time Complexity : O(n)
 * Average Time Complexity ： O(n²) 
@@ -45,7 +55,7 @@ New problems will be automatically updated once added.
 
 --------------------------
 ### **4. [Shell Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/ShellSort.java)**
-#### Stable: NO
+* Stable: NO
 * Worst Time Complexity ：O(nlog²n)
 * Best Time Complexity : O(n)
 * Average Time Complexity ： 取决于间隔序列
@@ -56,7 +66,7 @@ New problems will be automatically updated once added.
 
 -------------------------
 ### **5. [Merge Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/MergeSort.java)**
-#### Stable: YES
+* Stable: YES
 * Worst Time Complexity ： O(nlogn)
 * Best Time Complexity : O(nlogn)
 * Average Time Complexity ： O(nlogn)
@@ -66,7 +76,7 @@ New problems will be automatically updated once added.
 
 ------------------------
 ### **6. [Quick Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/QuickSort.java)**
-#### Stable: NO
+* Stable: NO
 * Worst Time Complexity ： O(n²) 
 * Best Time Complexity : O(nlogn)
 * Average Time Complexity ： O(1)
@@ -76,7 +86,7 @@ New problems will be automatically updated once added.
 
 -------------------
 ### **7. [Heap Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/HeapSort.java)**
-#### Stable: NO
+* Stable: NO
 * Worst Time Complexity ： O(nlogn)
 * Best Time Complexity : O(nlogn)
 * Average Time Complexity ： O(nlogn)
