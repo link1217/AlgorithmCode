@@ -16,7 +16,7 @@ New problems will be automatically updated once added.
 	* [8.Heap Sort](#7-heap-sort)
 	* [9.Bubble Sort](#8-bubble-sort)
 * [Search Algorithm](#search-algorithm)
-	*[Union Find Set](#1-union-find-set)
+	* [Union Find Set](#1-union-find-set)
         
 <!--GFM-TOC -->
 
