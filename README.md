@@ -7,7 +7,7 @@
 
 ***********************
  
-### Tips:
+### Summary:
 - **[README.md](https://github.com/lanrengufeng/AlgorithmCode/blob/master/README.md)**: 涉及到的算法
 
 - **[ReviewPage.md](https://github.com/lanrengufeng/AlgorithmCode/blob/master/ReviewPage.md)**: 所有算法的总结和归纳（不断完善中）
@@ -17,11 +17,12 @@
 
 ## Content
 
-<!--GFM-TOC -->
-* [Sort Algorithm](#sort-algorithm)
-* [Search Algorithm](#search-algorithm)
-        
-<!--GFM-TOC -->
+<!-- TOC -->
+
+- [Sort Algorithm](#sort-algorithm)
+- [Search Algorithm](#search-algorithm)
+
+<!-- /TOC -->
 
 --------------------
 
