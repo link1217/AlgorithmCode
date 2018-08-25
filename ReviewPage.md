@@ -5,7 +5,7 @@ New problems will be automatically updated once added.
 --------------------------------------------
 ### Content
 <!-- GFM-TOC -->
-  * [Sort Algorithm](#1-Sort-Algorithm)
+  * [Sort Algorithm](#Sort-Algorithm)
     * [Selection Sort](#2-Selection-Sort)
 
 <!-- GFM-TOC -->
