@@ -15,6 +15,16 @@
 
 **************************************************
 
+## Content
+
+<!--GFM-TOC -->
+	* [Sort Algorithm](#sort-algorithm)
+	* [Search Algorithm](#search-algorithm)
+        
+<!--GFM-TOC -->
+
+--------------------
+
 ## Sort Algorithm
 > 内含对数器测试校验，在当前类的main函数中对排序方法进行校验，对数器由工具类[ArrayUtils](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/utils/ArrayUtils.java)生成
 
