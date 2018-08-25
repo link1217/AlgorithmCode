@@ -7,13 +7,13 @@ New problems will be automatically updated once added.
 
 <!-- GFM-TOC -->
 * [SortAlgorith](#ortAlgorith)
-* [hahaaaaa](#haha)
+* [hahaaaaa](#haAhaA)
 * [哈哈aaaa](#哈哈)
 * [SortAlgoritaaa](#ortAlgoritaaa)
 <!-- GFM-TOC -->
 
 
-# haha
+# haAhaA
 
 
 # ortAlgorith
