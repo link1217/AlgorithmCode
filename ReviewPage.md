@@ -9,6 +9,7 @@ New problems will be automatically updated once added.
 * [SortAlgorith](#SortAlgorith)
 * [haha](#haha)
 * [哈哈](#哈哈)
+* [SortAlgoritaaa](#SortAlgoritaaa)
 <!-- GFM-TOC -->
 
 
@@ -16,6 +17,8 @@ New problems will be automatically updated once added.
 
 
 # SortAlgorith
+
+# SortAlgoritaaa
 
 --------------
 
