@@ -7,10 +7,9 @@ New problems will be automatically updated once added.
 
 <!-- TOC -->
 
-- [Review Page](#review-page)
-        - [Content](#content)
-    - [Sort Algorithm](#sort-algorithm)
-        - [**1. [Bubble Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/BubbleSort.java)**](#1-bubble-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortbubblesortjava)
+
+- [Sort Algorithm](#sort-algorithm)
+        - [1.Bubble Sort](#1-bubble-sort)
             - [Stable: YES](#stable-yes)
         - [**2. [Selection Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/SelectionSort.java)**](#2-selection-sorthttpsgithubcomlanrengufengalgorithmcodeblobmastersrcsortselectionsortjava)
             - [Stable: NO](#stable-no)
