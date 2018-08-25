@@ -18,8 +18,8 @@
 ## Content
 
 <!--GFM-TOC -->
-	* [Sort Algorithm](#sort-algorithm)
-	* [Search Algorithm](#search-algorithm)
+* [Sort Algorithm](#sort-algorithm)
+* [Search Algorithm](#search-algorithm)
         
 <!--GFM-TOC -->
 
