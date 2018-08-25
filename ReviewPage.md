@@ -7,8 +7,8 @@ New problems will be automatically updated once added.
 
 <!-- GFM-TOC -->
 * [SortAlgorith](#ortAlgorith)
-* [haha](#haha)
-* [哈哈](#哈哈)
+* [hahaaaaa](#haha)
+* [哈哈aaaa](#哈哈)
 * [SortAlgoritaaa](#ortAlgoritaaa)
 <!-- GFM-TOC -->
 
