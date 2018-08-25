@@ -84,3 +84,23 @@ New problems will be automatically updated once added.
 
 
 ## Search Algorithm
+> 与查找相关的算法
+
+
+### **1. [Union Find Set](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/UnionFind.java)**
+* Worst Time Complexity ： O(n)
+* Best Time Complexity : O(1)
+* Average Time Complexity ： O(1)
+* Worst Space Complexity ： O(n)
+
+* 可用于并行计算孤立岛数量，只需要记录各个分块的相邻边界处的并查集信息和总的岛数量
+
+---------------------------
+
+
+
+--------------------
+
+
+
+

@@ -33,6 +33,6 @@
 
 ## Search Algorithm
 
-| Sequence | Name       | Time Complexity  | Language  | Stable | Others |
-|:-------:|:--------------|:------:|:---------:|:----:|:-------------:|
-|1|[Two Sum](https://github.com/lanrengufeng/LeetCodeEx/blob/master/src/leetcode/TwoSum.java)|Easy|Java| Array, Hash Table ||
+| Sequence | Name     | Best Time Complexity | Worst Time Complexity | Average Time Complexity | Tags | Others |
+|:--------:|:---------|:--------------------:|:---------------------:|:-----------------------:|:-----:|:------:|
+|1|[Union Find Set](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/UnionFind.java)| O(1) | O(n) | O(1)| Hash Table, Tree | 并查集 |
