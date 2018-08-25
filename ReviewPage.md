@@ -5,11 +5,11 @@ New problems will be automatically updated once added.
 --------------------------------------------
 ### Content
 
-<!-- TOC -->
+<!--GFM-TOC -->
 * [Sort Algorithm](#sort-algorithm)
     * [1.Bubble Sort](#1-bubble-sort)
         
-<!-- /TOC -->
+<!--GFM-TOC -->
 
 
 # Sort Algorithm  
