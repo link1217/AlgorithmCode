@@ -6,7 +6,7 @@ New problems will be automatically updated once added.
 ### Content
 
 <!-- GFM-TOC -->
-* [Sort Algorithm](#SortAlgorithm)
+* [Sort Algorithm](#SortAlgorith)
     * [Selection Sort](#2SelectionSort)
 * [haha](#haha)
 * [哈哈](#哈哈)
@@ -16,7 +16,7 @@ New problems will be automatically updated once added.
 # haha
 
 
-# SortAlgorithm 
+# SortAlgorith
 
 --------------
 
