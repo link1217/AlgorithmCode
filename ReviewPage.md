@@ -80,7 +80,7 @@ New problems will be automatically updated once added.
 - Stable: NO
 - Worst Time Complexity ： O(n²) 
 - Best Time Complexity : O(nlogn)
-- Average Time Complexity ： O(1)
+- Average Time Complexity ： O(nlogn)
 - Worst Space Complexity ： O(n)
 
 - 优化后的随机快排，时间复杂度长期期望为O(nlogn)
