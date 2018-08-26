@@ -84,6 +84,7 @@ New problems will be automatically updated once added.
 - Worst Space Complexity ： O(n)
 
 - 优化后的随机快排，时间复杂度长期期望为O(nlogn)
+> 每次排序随机交换标志位与待排序的任意一位数；partition过程根据荷兰国旗问题改进，一次partition将小于标志位的放左边，等于标志位的放中间，大于标志位的放右边，可有效处理数组中存在大量重复元素的问题
 
 -------------------
 ### 7. [Heap Sort](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/sort/HeapSort.java)
