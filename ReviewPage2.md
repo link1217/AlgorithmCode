@@ -222,7 +222,7 @@ New problems will be automatically updated once added.
 
    　　不同形态的二叉查找树如下图所示：
 
-   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/binaryTree.jpg)
+   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/2434234234.jpg)
 
     　　有关二叉查找树的查找、插入、删除等操作的详细讲解，请移步[浅谈算法和数据结构: 七 二叉查找树](http://www.cnblogs.com/yangecnu/p/Introduce-Binary-Search-Tree.html)。
 
@@ -230,7 +230,7 @@ New problems will be automatically updated once added.
 
    　　下图为二叉树查找和顺序查找以及二分查找性能的对比图：
 
-   **![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/2.png)**
+   **![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/234234125443.png)**
 
     
 
