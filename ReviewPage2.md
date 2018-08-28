@@ -293,7 +293,7 @@ New problems will be automatically updated once added.
 
    　　下图可以看到红黑树其实是2-3树的另外一种表现形式：如果我们将红色的连线水平绘制，那么他链接的两个2-node节点就是2-3树中的一个3-node节点了。
 
-   [![1-1 correspondence between 2-3 and LLRB](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270024386864059.png)
+   [![1-1 correspondence between 2-3 and LLRB](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270024403113529.png)
 
    　　**红黑树的性质**：**整个树完全黑色平衡，即从根节点到所以叶子结点的路径上，黑色链接的个数都相同（2-3树的第2）性质，从根节点到叶子节点的距离都相等）。**
 
@@ -301,7 +301,7 @@ New problems will be automatically updated once added.
 
    　　下图是一个典型的红黑树，从中可以看到最长的路径(红黑相间的路径)是最短路径的2倍：
 
-   [![a typic red black tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270027354528654.png)
+   [![a typic red black tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270027368747653.png)
 
    ## 　　红黑树的平均高度大约为logn。
 
@@ -340,7 +340,7 @@ New problems will be automatically updated once added.
 
    的演示动画：
 
-   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/btreebuild.gif)
+   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/23423423413.gif)
 
    　　**B+树定义：**
 
