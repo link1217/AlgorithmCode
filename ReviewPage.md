@@ -20,6 +20,7 @@ New problems will be automatically updated once added.
 	- [0.Union Find Set](#0-union-find-set)
 	- [1.Sequential Search](#1-sequential-search)
 	- [2.Binary Search](#2-binary-search)
+	- [3.Insertion Search](#2-insertion-search)
         
 <!--GFM-TOC -->
 
