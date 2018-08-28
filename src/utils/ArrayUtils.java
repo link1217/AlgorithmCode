@@ -1,6 +1,7 @@
 package utils;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 /**
  * 对数器 对数器的概念和使用 0，有一个你想要测的方法a， 1，实现一个绝对正确但是复杂度不好的方法b， 2，实现一个随机样本产生器 3，实现比对的方法
@@ -32,6 +33,25 @@ public class ArrayUtils {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
 		}
+		return arr;
+	}
+
+	/**
+	 * 随机生成一个不包含重复元素的数组，从0到maxValue最大长度为maxSize
+	 * 
+	 * @param maxSize
+	 * @param maxValue
+	 * @return
+	 */
+	public static int[] getRandomArrayWithoutRepeat(int maxSize, int maxValue) {
+		int[] arr = new int[(int) ((maxSize + 1) * Math.random())];
+		HashSet<Integer> set = new HashSet<Integer>();
+		while (set.size() != arr.length) {
+			set.add((int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random()));
+		}
+		int index = 0;
+		for (Integer cur : set)
+			arr[index++] = cur;
 		return arr;
 	}
 
@@ -87,6 +107,7 @@ public class ArrayUtils {
 
 	/**
 	 * 交换数组arr中下标为i和j的两个数
+	 * 
 	 * @param arr
 	 * @param i
 	 * @param j

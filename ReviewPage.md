@@ -17,7 +17,7 @@ New problems will be automatically updated once added.
 	- [8.Bucket Sort](#8-bucket-sort)
 	- [9.Radix Sort](#9-radix-sort)
 - [Search Algorithm](#search-algorithm)
-	- [1.Union Find Set](#1-union-find-set)
+	- [0.Union Find Set](#0-union-find-set)
         
 <!--GFM-TOC -->
 
@@ -122,7 +122,7 @@ New problems will be automatically updated once added.
 > 与查找相关的算法
 
 
-### 1. [Union Find Set](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/UnionFind.java)
+### 0. [Union Find Set](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/UnionFind.java)
 - Worst Time Complexity ： O(n)
 - Best Time Complexity : O(1)
 - Average Time Complexity ： O(1)
@@ -131,8 +131,24 @@ New problems will be automatically updated once added.
 - 可用于并行计算孤立岛数量，只需要记录各个分块的相邻边界处的并查集信息和总的岛数量
 
 ---------------------------
+### 1. [Sequential Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/SequentialSearch.java)
+- Worst Time Complexity ： O(n)
+- Best Time Complexity : O(1)
+- Average Time Complexity ： O(n)
+- Worst Space Complexity ： O(1)
+
+- 遍历数组，找到则返回对应下标，否则返回-1即可
+
+---------------
 
 
+### 2. [Binary Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/BinarySearch.java)
+- Worst Time Complexity ： O(1)
+- Best Time Complexity : O(logn)
+- Average Time Complexity ： O(logn)
+- Worst Space Complexity ： O(1)
+
+- 递归或者迭代
 
 --------------------
 

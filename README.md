@@ -48,4 +48,14 @@
 
 | Sequence | Name     | Best Time Complexity | Worst Time Complexity | Average Time Complexity | Tags | Others |
 |:--------:|:---------|:--------------------:|:---------------------:|:-----------------------:|:-----:|:------:|
-|1|[Union Find Set](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/UnionFind.java)| O(1) | O(n) | O(1)| Hash Table, Tree | 并查集 |
+|0|[Union Find Set](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/UnionFind.java)| O(1) | O(n) | O(1)| Hash Table, Tree | 并查集 |
+|1|[Sequential Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/SequentialSearch.java)| O(1) | O(n) | O(n)| Array |  |
+|2|[Binary Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/BinarySearch.java)| O(1) | O(logn) | O(logn)| |  |
+
+
+
+
+
+
+
+--------------

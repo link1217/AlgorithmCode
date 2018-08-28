@@ -8,12 +8,13 @@ package search;
  */
 public class SequentialSearch {
 
-	public static void main(String[] args) {
-		byte a=127,b=127;
-		a+=b;
-		System.out.println(a);
-	}
-
+	/**
+	 * 顺序查找
+	 * 
+	 * @param arr
+	 * @param num
+	 * @return
+	 */
 	public static int sequentialSearch(int[] arr, int num) {
 		if (arr == null || arr.length == 0)
 			return -1;
