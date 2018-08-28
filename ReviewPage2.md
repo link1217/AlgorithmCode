@@ -271,7 +271,7 @@ New problems will be automatically updated once added.
 
    　　对于插入来说，只需要常数次操作即可完成，因为他只需要修改与该节点关联的节点即可，不需要检查其他节点，所以效率和查找类似。下面是2-3查找树的效率：
 
-   [![analysis of 2-3 tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/252249087649035.png)
+   [![analysis of 2-3 tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/252249104513019.png)
 
     
 
