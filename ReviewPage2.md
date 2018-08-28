@@ -222,7 +222,7 @@ New problems will be automatically updated once added.
 
    　　不同形态的二叉查找树如下图所示：
 
-   ![img](https://github.com/lanrengufeng/AlgorithmCode/tree/master/src/files/binaryTree.jpg)
+   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/binaryTree.jpg)
 
     　　有关二叉查找树的查找、插入、删除等操作的详细讲解，请移步[浅谈算法和数据结构: 七 二叉查找树](http://www.cnblogs.com/yangecnu/p/Introduce-Binary-Search-Tree.html)。
 
@@ -230,7 +230,7 @@ New problems will be automatically updated once added.
 
    　　下图为二叉树查找和顺序查找以及二分查找性能的对比图：
 
-   **![img](C:\Users\Watcher\Desktop\2.png)**
+   **![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/2.png)**
 
     
 
@@ -246,7 +246,7 @@ New problems will be automatically updated once added.
 
    　　3）对于3节点，该节点保存两个key及对应value，以及三个指向左中右的节点。左节点也是一个2-3节点，所有的值均比两个key中的最小的key还要小；中间节点也是一个2-3节点，中间节点的key值在两个跟节点key值之间；右节点也是一个2-3节点，节点的所有key值比两个key中的最大的key还要大。
 
-   [![Definition of 2-3 tree](C:\Users\Watcher\Desktop\252248450292152.png)](https://images0.cnblogs.com/blog/94031/201403/252248421868855.png)
+   [![Definition of 2-3 tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/252248450292152.png)
 
    　　**2-3查找树的性质：**
 
@@ -256,7 +256,7 @@ New problems will be automatically updated once added.
 
    　　性质2）如下图所示：
 
-   ![img](C:\Users\Watcher\Desktop\252249082017906.png)
+   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/252249082017906.png)
 
     
 
@@ -271,7 +271,7 @@ New problems will be automatically updated once added.
 
    　　对于插入来说，只需要常数次操作即可完成，因为他只需要修改与该节点关联的节点即可，不需要检查其他节点，所以效率和查找类似。下面是2-3查找树的效率：
 
-   [![analysis of 2-3 tree](C:\Users\Watcher\Desktop\252249104513019.png)](https://images0.cnblogs.com/blog/94031/201403/252249087649035.png)
+   [![analysis of 2-3 tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/252249104513019.png)
 
     
 
@@ -281,7 +281,7 @@ New problems will be automatically updated once added.
 
    　　**基本思想：**红黑树的思想就是对2-3查找树进行编码，尤其是对2-3查找树中的3-nodes节点添加额外的信息。红黑树中将节点之间的链接分为两种不同类型，红色链接，他用来链接两个2-nodes节点来表示一个3-nodes节点。黑色链接用来链接普通的2-3节点。特别的，使用红色链接的两个2-nodes来表示一个3-nodes节点，并且向左倾斜，即一个2-node是另一个2-node的左子节点。这种做法的好处是查找的时候不用做任何修改，和普通的二叉查找树相同。
 
-   ![Red black tree](C:\Users\Watcher\Desktop\270024368439888.png)
+   ![Red black tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270024368439888.png)
 
    　　**红黑树的定义：**
 
@@ -293,7 +293,7 @@ New problems will be automatically updated once added.
 
    　　下图可以看到红黑树其实是2-3树的另外一种表现形式：如果我们将红色的连线水平绘制，那么他链接的两个2-node节点就是2-3树中的一个3-node节点了。
 
-   [![1-1 correspondence between 2-3 and LLRB](C:\Users\Watcher\Desktop\270024403113529.png)](https://images0.cnblogs.com/blog/94031/201403/270024386864059.png)
+   [![1-1 correspondence between 2-3 and LLRB](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270024386864059.png)
 
    　　**红黑树的性质**：**整个树完全黑色平衡，即从根节点到所以叶子结点的路径上，黑色链接的个数都相同（2-3树的第2）性质，从根节点到叶子节点的距离都相等）。**
 
@@ -301,13 +301,13 @@ New problems will be automatically updated once added.
 
    　　下图是一个典型的红黑树，从中可以看到最长的路径(红黑相间的路径)是最短路径的2倍：
 
-   [![a typic red black tree](C:\Users\Watcher\Desktop\270027368747653.png)](https://images0.cnblogs.com/blog/94031/201403/270027354528654.png)
+   [![a typic red black tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270027354528654.png)
 
    ## 　　红黑树的平均高度大约为logn。
 
    　　下图是红黑树在各种情况下的时间复杂度，可以看出红黑树是2-3查找树的一种实现，它能保证最坏情况下仍然具有对数的时间复杂度。
 
-   ![img](C:\Users\Watcher\Desktop\270027378905711.png)
+   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/270027378905711.png)
 
    　　红黑树这种数据结构应用十分广泛，在多种编程语言中被用作符号表的实现，如：
 
@@ -332,7 +332,7 @@ New problems will be automatically updated once added.
 
    　　下图是一个M=4 阶的B树:
 
-   ![img](C:\Users\Watcher\Desktop\290047034539184.png)
+   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/290047034539184.png)
 
    　　可以看到B树是2-3树的一种扩展，他允许一个节点有多于2个的元素。B树的插入及平衡化操作和2-3树很相似，这里就不介绍了。下面是往B树中依次插入
 
@@ -340,7 +340,7 @@ New problems will be automatically updated once added.
 
    的演示动画：
 
-   ![img](https://files.cnblogs.com/yangecnu/btreebuild.gif)
+   ![img](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/btreebuild.gif)
 
    　　**B+树定义：**
 
@@ -352,13 +352,13 @@ New problems will be automatically updated once added.
 
    　　如下图，是一个B+树:
 
-   ![B Plus tree](C:\Users\Watcher\Desktop\290050048129679.png)
+   ![B Plus tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/290050048129679.png)
 
     
 
    　　下图是B+树的插入动画：
 
-    ![btreebuild](C:\Users\Watcher\Desktop\btreebuild.gif)
+    ![btreebuild](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/btreebuild.gif)
 
    　　**B和B+树的区别在于，B+树的非叶子结点只包含导航信息，不包含实际的值，所有的叶子结点和相连的节点使用链表相连，便于区间查找和遍历。**
 
@@ -371,7 +371,7 @@ New problems will be automatically updated once added.
 
    　　下面是B 树和B+树的区别图：
 
-   ![Different between B tree and B plus tree](C:\Users\Watcher\Desktop\290050088914733.png)
+   ![Different between B tree and B plus tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/290050088914733.png)
 
    　　B/B+树常用于文件系统和数据库系统中，它通过对每个节点存储个数的扩展，使得对连续的数据能够进行较快的定位和访问，能够有效减少查找时间，提高存储的空间局部性从而减少IO操作。它广泛用于文件系统及数据库中，如：
 
