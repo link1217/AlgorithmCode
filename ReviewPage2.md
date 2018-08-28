@@ -246,7 +246,7 @@ New problems will be automatically updated once added.
 
    　　3）对于3节点，该节点保存两个key及对应value，以及三个指向左中右的节点。左节点也是一个2-3节点，所有的值均比两个key中的最小的key还要小；中间节点也是一个2-3节点，中间节点的key值在两个跟节点key值之间；右节点也是一个2-3节点，节点的所有key值比两个key中的最大的key还要大。
 
-   [![Definition of 2-3 tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/252248421868855.png)
+   [![Definition of 2-3 tree](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/252248450292152.png)
 
    　　**2-3查找树的性质：**
 
