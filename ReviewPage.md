@@ -18,6 +18,8 @@ New problems will be automatically updated once added.
 	- [9.Radix Sort](#9-radix-sort)
 - [Search Algorithm](#search-algorithm)
 	- [0.Union Find Set](#0-union-find-set)
+	- [1.Sequential Search](#1-sequential-search)
+	- [2.Binary Search](#2-binary-search)
         
 <!--GFM-TOC -->
 
