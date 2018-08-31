@@ -23,7 +23,11 @@ New problems will be automatically updated once added.
 	- [3.Insertion Search](#3-insertion-search)
 	- [4. Fibonacci Search](#4-fibonacci-search)
 	- [5. Tree Search](#5-数表查找)
-        
+	- [6. BFPRT](#6-bfprt)
+- [Search Algorithm Classic Problem](#search-algorithm-classic-problem)     
+    - [1. Kth Value](#1-kth-value)
+    
+    
 <!--GFM-TOC -->
 
 --------------------
@@ -389,8 +393,22 @@ New problems will be automatically updated once added.
 
    　　除此之外，2-3查找树的另一个扩展——B/B+平衡树，在文件系统和数据库系统中有着广泛的应用。
 
-   ------
+------------------
+### 6. [BFPRT](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/BFPRT.java)
+- Worst Time Complexity ： O(n)
+- Average Time Complexity ： O(n)
+- Space Complexity ： O(n)
 
-   
+- 在一个无序的数组中查找第k小的数，时间复杂度严格O(n)，而随机快排的partition过程只能做到时间复杂度长期期望为O(n)
 
----------------------
+
+----------------
+## Search Algorithm Classic Problem
+### 1. [Kth Value](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/KthValue.java)
+- Time Complexity ： O(n)
+- Space Complexity ： O(1)/O(n)
+
+- 利用随机快排的partition过程或者BFPRT算法，时间复杂度都是O(n)，空间复杂度分别为O(1)和O(n)
+
+
+----------------

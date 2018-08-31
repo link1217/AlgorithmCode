@@ -53,9 +53,17 @@
 |2|[Binary Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/BinarySearch.java)| O(1) | O(logn) | O(logn)| |  |
 |3|[Insertion Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/InsertionSearch.java)| O(1) | O(log(logn)) | O(log(logn))| |  |
 |4|[Fibonacci Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/FibonacciSearch.java)| O(1) | O(logn) | O(logn)| | 斐波那契数列 |
-|4|[Tree Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/ReviewPage.md)|  |  | | | 搜索平衡二叉树，B树B+树，红黑树等 |
+|5|[Tree Search](https://github.com/lanrengufeng/AlgorithmCode/blob/master/ReviewPage.md)|  |  | | | 搜索平衡二叉树，B树B+树，红黑树等 |
+|6|[BFPRT](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/BFPRT.java)| O(1) | O(n) | O(n) | 分治，递归 | 比随机快排的partition更优 |
 
 
 
 
 --------------
+## Search Algorithm Classic Problem
+| Sequence | Name     | Time Complexity | Space Complexity | Tags | Others |
+|:--------:|:---------|:---------------:|:----------------:|:----:|:------:|
+|1|[Kth Value](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/KthValue.java)| O(n) | O(1), O(n) | partition, BFPRT | 并查集 |
+
+
+
