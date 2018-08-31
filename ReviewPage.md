@@ -5,7 +5,7 @@ New problems will be automatically updated once added.
 --------------------------------------------
 ## Content
 
-<!--GFM-TOC -->
+
 - [Sort Algorithm](#sort-algorithm)
 	- [1.Bubble Sort](#1-bubble-sort)
 	- [2.Selection Sort](#2-selection-sort)
@@ -28,7 +28,7 @@ New problems will be automatically updated once added.
     - [1. Kth Value](#1-kth-value)
     
     
-<!--GFM-TOC -->
+
 
 --------------------
 
@@ -415,10 +415,5 @@ New problems will be automatically updated once added.
 
 
 --------------
-<!--GFM-TOC -->
-
-- [back to top](#review-page)
-
-<!--GFM-TOC -->
 
 - [back to top](#review-page)
