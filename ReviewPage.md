@@ -417,9 +417,7 @@ New problems will be automatically updated once added.
 --------------
 <!--GFM-TOC -->
 
-- [back to top](#-review-page)
-- [back to top](#-review-page2)
+- [back to top](#review-page)
 
 <!--GFM-TOC -->
 
-# Review Page2
