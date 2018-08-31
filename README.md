@@ -21,6 +21,7 @@
 
 - [Sort Algorithm](#sort-algorithm)
 - [Search Algorithm](#search-algorithm)
+- [Search Algorithm Classic Problem](#search-algorithm-classic-problem)
 
 <!--GFM-TOC -->
 
