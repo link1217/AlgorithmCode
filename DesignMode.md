@@ -6,8 +6,9 @@
 
 - [创建型模式(5种)](#创建型模式5种)
 - [结构模式(7种)](#结构模式7种)  
-        - [7、装饰模式(Decorator)](#7装饰模式decorator)  
-
+    - [7、装饰模式(Decorator)](#7装饰模式decorator)  
+    - [8、代理模式(Proxy)](#代理模式proxy)  
+        
 
 ----------
 ## 一、设计模式的分类
@@ -130,3 +131,61 @@ Source类是被装饰类，Decorator类是一个装饰类，可以为Source类�
 缺点：产生过多相似的对象，不易排错！
 
 ----------------
+### 8、代理模式(Proxy)
+其实每个模式名称就表明了该模式的作用，代理模式就是多一个代理类出来，替原对象进行一些操作，比如我们在租房子的时候回去找中介，为什么呢？
+因为你对该地区房屋的信息掌握的不够全面，希望找一个更熟悉的人去帮你做，此处的代理就是这个意思。再如我们有的时候打官司，我们需要请律师，
+因为律师在法律方面有专长，可以替我们进行操作，表达我们的想法。先来看看关系图：  
+        ![代理模式](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/files/代理模式.jpg)
+
+根据上文的阐述，代理模式就比较容易的理解了，我们看下代码：
+接口： [Sourceable](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/designMode/proxy/Sourceable.java)
+```
+    public interface Sourceable {
+        void method();
+    }
+```
+实现类： [Source](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/designMode/proxy/Source.java)
+```
+    public class Source implements Sourceable {
+        @Override
+        public void method() {
+            System.out.println("Source code...");
+        }
+    }
+
+```
+代理类： [Proxy](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/designMode/proxy/Proxy.java)
+```
+    public class Proxy implements Sourceable {
+        Sourceable source;
+    
+        public Proxy() {
+            source = new Source();
+        }
+    
+        @Override
+        public void method() {
+            System.out.println("before...");
+            source.method();
+            System.out.println("after...");
+        }
+    }
+```
+测试类： [ProxyTest](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/designMode/proxy/ProxyTest.java)
+```
+    public class ProxyTest {
+        public static void main(String[] args) {
+            Sourceable source = new Proxy();
+            source.method();
+        }
+    }
+
+```
+输出：
+> before...  
+  Source code...  
+  after...
+
+--------------
+
+
