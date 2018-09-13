@@ -12,6 +12,7 @@
 
 - **[ReviewPage.md](https://github.com/lanrengufeng/AlgorithmCode/blob/master/ReviewPage.md)**: 所有算法的总结和归纳（不断完善中）
 
+- **[DesignMode.md](https://github.com/lanrengufeng/AlgorithmCode/blob/master/DesignMode.md)**: 设计模式总结
 
 **************************************************
 
@@ -22,6 +23,8 @@
 - [Sort Algorithm](#sort-algorithm)
 - [Search Algorithm](#search-algorithm)
 - [Search Algorithm Classic Problem](#search-algorithm-classic-problem)
+
+
 
 <!--GFM-TOC -->
 
@@ -67,4 +70,5 @@
 |1|[Kth Value](https://github.com/lanrengufeng/AlgorithmCode/blob/master/src/search/KthValue.java)| O(n) | O(1), O(n) | partition, BFPRT | 并查集 |
 
 
+-------------------
 
